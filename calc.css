@@ -1,0 +1,66 @@
+html {
+	background: url(images.jpg) no-repeat;
+	background-size: cover;
+}
+
+div {
+  width: 397px;
+  margin: 0 auto;
+  margin-top: 150px;
+  border: 3px solid silver;
+  background-color: grey;
+  box-shadow: -20px 20px 50px rgba(0,0,0,0.7);
+  border-radius: 10px; 
+}
+
+input {
+  margin: 3px;
+  width: 375px;
+  height: 100px;
+  border: 3px solid silver;
+  font-size: 50px;
+  text-align: right;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  outline: none;
+  font-family: 'Keania One', cursive;
+}
+
+button {
+  width: 70px;
+  height: 70px;
+  margin:3px;
+  font-size: 30px;
+  cursor: pointer;
+  box-shadow: 0 0 50px rgba(0,0,0,0.5);
+  border: 2px solid silver;
+  border-radius: 8px;
+}
+
+button:hover {
+	background-color: #D8BCFC;
+}
+
+button:focus {
+	background-color: grey;
+	border: 2px solid silver;
+	outline: none;
+}
+
+#clear:focus {
+	background-color: #FC4F3B;
+}
+
+.result {
+  height: 145px;
+  float: right;
+}
+
+.result:focus {
+	background-color: #796DFC;
+}
+
+.zero {
+  width: 150px;
+}
